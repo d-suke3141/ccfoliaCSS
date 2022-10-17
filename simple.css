@@ -1,0 +1,18 @@
+/*  ダイアログ　*/
+body > div.MuiDialog-root > div.MuiBackdrop-root,
+body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div,
+/* ヘッダー */
+#root > div > header,
+/* 音量調節 */
+#root > div > div.sc-gSQFLo.hPKYjV > div.sc-kYHfwS.ehpWma,
+/* 編集ボタン*/
+#root > div > div.sc-gSQFLo.hPKYjV > button,
+/* 拡大縮小 */
+#root > div > div.sc-gSQFLo.hPKYjV > div.sc-cVAmsi.VniSm,
+/* チャットヘッダー */
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > header,
+/* チャットメニュー */
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > div > div.MuiPaper-root.sc-cTAqQK.btWeVW.MuiPaper-elevation1
+{
+    display: none
+}
