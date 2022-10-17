@@ -12,7 +12,9 @@ body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div,
 /* チャットヘッダー */
 #root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > header,
 /* チャットメニュー */
-#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > div > div.MuiPaper-root.sc-cTAqQK.btWeVW.MuiPaper-elevation1
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > div > div.MuiPaper-root.sc-cTAqQK.btWeVW.MuiPaper-elevation1,
+/* スクロールバー */
+::-webkit-scrollbar
 {
-    display: none
+    display: none !important;
 }
