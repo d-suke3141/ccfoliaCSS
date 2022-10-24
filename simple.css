@@ -1,21 +1,18 @@
-/*  ダイアログ　*/
 /* ダイアログ表示時はBGMが流れないため、確認のために表示する */
-/* body > div.MuiDialog-root > div.MuiBackdrop-root,
-body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div, */
 /* ヘッダー */
 #root > div > header,
 /* 音量調節 */
-#root > div > div.sc-gSQFLo.hPKYjV > div.sc-kYHfwS.ehpWma,
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-ikjQzJ.eLyRoF,
 /* 編集ボタン*/
-#root > div > div.sc-gSQFLo.hPKYjV > button,
+#root > div > div.sc-kgUAyh.bQuPFq > button,
 /* 拡大縮小 */
-#root > div > div.sc-gSQFLo.hPKYjV > div.sc-cVAmsi.VniSm,
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-hZgfyJ.iydCdD,
 /* チャットヘッダー */
-#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > header,
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > header,
 /* チャットメニュー */
-#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > div > div.MuiPaper-root.sc-cTAqQK.btWeVW.MuiPaper-elevation1,
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > div > div.MuiPaper-root.sc-iTONeN.jaRgTS.MuiPaper-elevation1,
 /* スクロールバー */
-#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-khQegj.cuMbVd > div > div > div.MuiList-root.sc-cNKqjZ.fZNWMv::-webkit-scrollbar
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > div > div.MuiList-root.sc-jOrMOR.flHLrh::-webkit-scrollbar
 {
     display: none !important;
 }
