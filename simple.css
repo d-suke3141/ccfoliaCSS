@@ -12,7 +12,7 @@
 /* チャットメニュー */
 #root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > div > div.MuiPaper-root.sc-iTONeN.jaRgTS.MuiPaper-elevation1,
 /* スクロールバー */
-#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > div > div.MuiList-root.sc-jOrMOR.flHLrh::-webkit-scrollbar
+::-webkit-scrollbar
 {
     display: none !important;
 }
