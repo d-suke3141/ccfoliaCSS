@@ -1,0 +1,23 @@
+/* ダイアログ表示時はBGMが流れないため、確認のために表示する */
+/* ヘッダー */
+#root > div > header,
+/* 編集ボタン*/
+#root > div > div.sc-kgUAyh.bQuPFq > button,
+/* チャットヘッダー */
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > header,
+/* チャットメニュー */
+#root > div > div.MuiDrawer-root.MuiDrawer-docked.sc-bBXxYQ.dpyOPx > div > div > div.MuiPaper-root.sc-iTONeN.jaRgTS.MuiPaper-elevation1,
+/* スクロールバー */
+::-webkit-scrollbar
+{
+    display: none !important;
+}
+
+/* 以下の要素はクリックによる操作のために透明化する */
+/* 音量調節 */
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-ikjQzJ.eLyRoF,
+/* 拡大縮小 */
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-hZgfyJ.iydCdD
+{
+    opacity: 0 !important;
+}
