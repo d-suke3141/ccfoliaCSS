@@ -21,3 +21,12 @@
 {
     opacity: 0 !important;
 }
+
+/* 画面ドラッグのためドラッグ可能オブジェクトをドラッグ不可にする */
+/* スクリーンパネル・マーカーパネル */
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-djvmMF.jQdwqQ > div > div > div > div > div:nth-child(n+1),
+/* キャラクター */
+#root > div > div.sc-kgUAyh.bQuPFq > div.sc-djvmMF.jQdwqQ > div > div > div > div > figure
+{
+    pointer-events: none !important;
+}
