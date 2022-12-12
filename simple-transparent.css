@@ -16,9 +16,9 @@ header,
 }
 /* 以下の要素はクリックによる操作のために透明化する */
 /* 音量調節 */
-.sc-ikjQzJ.eLyRoF,
+.sc-ikjQzJ,
 /* 拡大縮小 */
-.sc-hZgfyJ.iydCdD
+.sc-hZgfyJ
 {
     opacity: 0 !important;
 }
