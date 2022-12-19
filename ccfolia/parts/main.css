@@ -1,0 +1,38 @@
+/* ダイアログ表示時はBGMが流れないため、確認のために表示する */
+/* ヘッダー */
+header,
+/* 編集ボタン*/
+.sc-dSuTWQ,
+/* チャット */
+.sc-bBXxYQ,
+/* チャットポップアップ */
+.sc-djUGQo,
+/* モーダル */
+[role="presentation"],
+/* ステータス */
+.sc-cwpsFg.fjqig,
+/* 監視モード */
+[role="alert"],
+/* スクロールバー */
+::-webkit-scrollbar
+{
+    display: none !important;
+}
+
+/* 音量調節 */
+.sc-ikjQzJ.eLyRoF,
+/* 拡大縮小 */
+.sc-hZgfyJ.iydCdD
+{
+    opacity: 0 !important;
+}
+
+.react-draggable
+{
+    pointer-events: none !important;
+}
+
+.sc-kgUAyh.bQuPFq
+{
+    right: 0 !important;
+}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+
+:root{
+    --font-color: black;
+    --font-family: "Noto Sans JP";
+    --width: 250px;
+}
+
+.sc-cwpsFg > div:not(:nth-child(1)){
+    display: none;
+}
+
+/* ヘッダー */
+header,
+/* 編集ボタン*/
+.sc-dSuTWQ,
+/* チャット */
+.sc-bBXxYQ,
+/* チャットポップアップ */
+.sc-djUGQo,
+/* モーダル */
+[role="presentation"],
+/* 音量調節 */
+.sc-ikjQzJ,
+/* 拡大縮小 */
+.sc-hZgfyJ,
+/* 前景 */
+.sc-djvmMF,
+/* 背景 */
+.sc-TRNrF,
+/* カットイン */
+.sc-gJwTLC,
+/* 監視モード */
+[role="alert"],
+/* ステータスバー */
+.sc-eVQfli, .sc-kTvvXX,
+/* ステータスアイコン */
+.sc-caXVBt,
+/* スクロールバー */
+::-webkit-scrollbar
+{
+    display: none !important;
+}
+
+/* チャット分の余白をキャンセル */
+.sc-kgUAyh.bQuPFq
+{
+    right: 0 !important;
+}
+
+/* ステータス省略の幅を上書き */
+.sc-cwpsFg.fjqig > div > div > div
+{
+    display: block;
+}
+
+/* ステータスを中央寄せ */
+.sc-kgUAyh
+{
+    display: grid;
+    place-content: center;
+}
+
+.sc-cwpsFg
+{
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    padding: 0;
+    position: static;
+}
+
+.sc-gzzPqb > p
+{
+    text-shadow: none;
+    font-weight: 100;
+    font-size: 50px;
+    font-family: var(--font-family) !important;
+    color: var(--font-color);
+}
+
+.sc-eXBvqI
+{
+    color: var(--font-color);
+}
+
+.sc-fHsOPI
+{
+    max-width: none;
+    width: 100%;
+    margin: 0px;
+}
+
+.sc-iFwKgL
+{
+    width: var(--width);
+    height: 60px;
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
+}

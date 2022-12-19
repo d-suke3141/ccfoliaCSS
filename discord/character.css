@@ -1,0 +1,93 @@
+
+:root {
+    --image-url-1: url("{image_url1}");
+    --image-url-2: var(--image-url-1);
+    --name: none;
+    --name-size: 30px;
+    --animation: begin-to-speak-jump, speaking-secondimage;
+}
+
+li[class*="State"]{
+    height: 0;
+}
+
+img[class*="avatar"] {
+    content: var(--image-url-1);
+    height: auto !important;
+    width: 100% !important;
+    border-radius: 0% !important;
+    border: 0 !important;
+    filter: brightness(50%);
+}
+
+img[class*="Speaking"] {
+    border-color: rgba(0, 0, 0, 0) !important;
+    position: relative;
+    animation-name: var(--animation);
+    /* animation-name: begin-to-speak, speaking; */
+    animation-duration: 1s, 600ms;
+    animation-fill-mode: forwards, none;
+    animation-iteration-count: 1, infinite;
+    filter: brightness(100%);
+}
+
+@keyframes begin-to-speak-jump {
+    0% {
+        bottom: 0px;
+    }
+    15% {
+        bottom: 10px;
+    }
+    30% {
+        bottom: 0px;
+    }
+}
+
+@keyframes speaking-secondimage {
+    0% {
+        content: var(--image-url-1);
+    }
+    100% {
+        content: var(--image-url-2);
+    }
+}
+
+@keyframes speaking-jump {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 10px;
+    }
+}
+
+div[class*="user"] {
+    position: absolute;
+    left: 50% !important;
+    bottom: 20% !important;
+    transform: translate(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+span[class*="name"]{
+    display: block;
+    text-align: center;
+    font-size:0 !important;
+    background-color:rgba(0, 0, 0, 0) !important;
+}
+
+span[class*="name"]:after{
+    font-size:var(--name-size) !important;
+    content: var(--name);
+    background-color:rgba(30, 33, 36, 0.95);
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
+}
