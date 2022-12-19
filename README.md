@@ -71,7 +71,7 @@ OBS用のCSSまとめです
     - --nameにキャラクター名を設定する(名前を表示しない場合は行を削除)  
     - --name-sizeにキャラクター名の文字サイズを設定する(設定しない場合は30pxとなる) 
     - --animationにアニメーションを設定する(設定しない場合はbegin-to-speak-jump, speaking-secondimage)  
-    - ・begin-to-speak-jump: 話し始めにぴょこんと跳ねる  
-    - ・speaking-jump: 話してる途中にぴょこぴょこ跳ねる  
-    - ・speaking-secondimage: 話してる途中に差分画像が交互に表示される  
+      - begin-to-speak-jump: 話し始めにぴょこんと跳ねる  
+      - speaking-jump: 話してる途中にぴょこぴょこ跳ねる  
+      - speaking-secondimage: 話してる途中に差分画像が交互に表示される  
     - {discord_id}をプレイヤーのDiscord IDに置き換える
