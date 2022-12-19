@@ -35,6 +35,7 @@ OBS用のCSSまとめです
   - 各キャラクターのステータスをテキスト形式で表示する
   - 使用方法
     - ```css 
+      @import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/status-text.css");
       :root{
           --font-color: black;
           --font-family: "Noto Sans JP";
