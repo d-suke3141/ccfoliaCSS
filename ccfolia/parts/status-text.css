@@ -6,10 +6,6 @@
     --width: 250px;
 }
 
-.sc-cwpsFg > div:not(:nth-child(1)){
-    display: none;
-}
-
 /* ヘッダー */
 header,
 /* 編集ボタン*/
