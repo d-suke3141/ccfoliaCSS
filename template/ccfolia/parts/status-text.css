@@ -1,0 +1,11 @@
+@import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/status-text.css");
+:root
+{
+    --font-color: {font_color};
+    --font-family: "{font_family}";
+    --width: {width};
+}
+.sc-cwpsFg > div:not(:nth-child({character_number}))
+{
+    display: none;
+}

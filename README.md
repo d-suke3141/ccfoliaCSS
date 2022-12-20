@@ -76,3 +76,6 @@ OBS用のCSSまとめです
       - speaking-jump: 話してる途中にぴょこぴょこ跳ねる  
       - speaking-secondimage: 話してる途中に差分画像が交互に表示される  
     - {discord_id}をプレイヤーのDiscord IDに置き換える
+
+## テンプレート
+- template内のファイルは変数の置き換え用のファイル
