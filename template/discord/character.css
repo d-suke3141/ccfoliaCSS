@@ -1,8 +1,8 @@
 @import url("https://d-suke3141.github.io/css-for-obs-stream/discord/character.css");
 :root
 {
-    --image-url-1: url("{image_url1}");
-    --image-url-2: url("{image_url2}");
+    --image-url-1: url("{image_url_1}");
+    --image-url-2: url("{image_url_2}");
     --name: "{name}";
     --name-size: {name_size};
     --animation: {animation};
