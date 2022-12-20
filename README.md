@@ -45,9 +45,9 @@ OBS用のCSSまとめです
           display: none;
       }
       ```
-    - --font-colorに文字の色を設定する
-    - --font-familyに文字のフォントを設定する
-    - --widthにステータス文字列の幅を設定する
+    - --font-colorに文字の色を設定する(設定しない場合はblack)
+    - --font-familyに文字のフォントを設定する(設定しない場合はNoto Sans JP)
+    - --widthにステータス文字列の幅を設定する(設定しない場合は250px)
     - {character_number}をCCFOLIAでのキャラのの表示順に置き換える(１からスタート)
 ## Discord Streamkit用
 - [character.css](discord/character.css)
