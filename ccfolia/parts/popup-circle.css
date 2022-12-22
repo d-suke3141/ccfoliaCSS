@@ -1,0 +1,72 @@
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+/* ヘッダー */
+header,
+/* 編集ボタン*/
+.sc-dSuTWQ,
+/* チャット */
+.sc-bBXxYQ,
+/* ステータス */
+.sc-cwpsFg.fjqig,
+/* モーダル */
+[role="presentation"],
+/* 音量調節 */
+.sc-ikjQzJ,
+/* 拡大縮小 */
+.sc-hZgfyJ,
+/* 前景 */
+.sc-djvmMF,
+/* 背景 */
+.sc-TRNrF,
+/* カットイン */
+.sc-gJwTLC,
+/* 監視モード */
+[role="alert"],
+/* スクロールバー */
+::-webkit-scrollbar
+{
+    display: none !important;
+}
+
+/* チャット分の余白をキャンセル */
+.sc-kgUAyh.bQuPFq
+{
+    right: 0 !important;
+}
+
+/* ステータス省略の幅を上書き */
+.sc-cwpsFg.fjqig > div > div > div
+{
+    display: block;
+}
+@media (max-width: 170px){
+    .sc-cwpsFg.fjqig > div > div > div
+    {
+        display: none !important;
+    }
+}
+
+/* ポップアップの左右余白調整 */
+.sc-djUGQo
+{
+    max-width: none;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+/* キャラ絵丸 */
+.sc-djUGQo>img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: solid 6px #1D1D1D;
+    object-fit: cover;
+    object-position: top;
+}
