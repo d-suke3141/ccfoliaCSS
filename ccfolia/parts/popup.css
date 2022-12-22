@@ -26,6 +26,7 @@ header,
 .sc-gJwTLC,
 /* 監視モード */
 [role="alert"],
+button,
 /* スクロールバー */
 ::-webkit-scrollbar
 {
