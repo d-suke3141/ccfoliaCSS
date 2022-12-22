@@ -53,6 +53,8 @@ header,
 /* ポップアップの左右余白調整 */
 .sc-djUGQo
 {
-    left: 18px;
-    right: 18px;
+    max-width: none;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
