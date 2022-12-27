@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap");
 
 :root{
     --font-color: black;
     --font-family: "Noto Sans JP";
     --width: 250px;
+    --name: "";
 }
 
 /* ヘッダー */
@@ -93,6 +94,13 @@ header,
     height: 60px;
 }
 
+.sc-cwpsFg:before
+{
+    font-weight: 300;
+    font-size: 60px;
+    font-family: var(--font-family) !important;
+    content:  var(--name)
+}
 
 body {
     background-color: rgba(0, 0, 0, 0);
