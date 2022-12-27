@@ -100,7 +100,7 @@ header,
     font-size: 60px;
     font-family: var(--font-family) !important;
     color: var(--font-color);
-    content:  var(--name)
+    content:  var(--name);
 }
 
 body {
