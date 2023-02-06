@@ -3,7 +3,6 @@ body {
     margin: 0px auto;
     overflow: hidden;
 }
-
 /* ヘッダー */
 header,
 /* 編集ボタン*/
@@ -31,13 +30,11 @@ header,
 {
     display: none !important;
 }
-
 /* チャット分の余白をキャンセル */
 .sc-kgUAyh.bQuPFq
 {
     right: 0 !important;
 }
-
 /* ステータス省略の幅を上書き */
 .sc-cwpsFg.fjqig > div > div > div
 {
@@ -49,26 +46,22 @@ header,
         display: none !important;
     }
 }
-
 /* ステータスを中央寄せ */
 .sc-kgUAyh
 {
     display: grid;
     place-content: center;
 }
-
 .sc-cwpsFg
 {
     position: relative;
     top: 0px;
     overflow: visible;
 }
-
 /* 色々消す */
 .sc-gUAEMC,.MuiBadge-anchorOriginTopRightRectangle,.MuiTouchRipple-root{
     display: none;
 }
-
 /* キャラの背景色、枠線→無色　&　はみだし無効 */
 .MuiButtonBase-root,.MuiAvatar-root{
     background-color: rgba(0, 0, 0, 0) !important;
