@@ -26,6 +26,15 @@ OBS用のCSSまとめです
   - キャラ画像を丸く表示する
   - 使用方法
     - ```@import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/popup.css");```
+- [sabun.css](ccfolia/parts/sabun.css)
+  - ココフォリアの立ち絵を表示する(差分の反映可能)
+  - ただし、Discordの点滅等は併用できない
+    - ```css 
+      @import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/sabun.css");
+      .sc-cwpsFg > div:not(:nth-child({character_number})){
+       display: none;
+       }
+      ```
 - [status.css](ccfolia/parts/status.css)
   - 全員分のステータスを縦並びに表示する
   - 幅を狭くするとHPなどのステータス表示が省略される
