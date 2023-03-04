@@ -2,11 +2,11 @@
 /* ヘッダー */
 header,
 /* 編集ボタン*/
-.sc-dSuTWQ,
+.sc-bGWzfD,
 /* チャット */
-.sc-bBXxYQ,
+.MuiPaper-elevation0,.sc-gFGZVQ,
 /* チャットポップアップ */
-.sc-djUGQo,
+.sc-gGnURB,
 /* モーダル */
 [role="presentation"],
 /* ステータス */
@@ -20,9 +20,9 @@ header,
 }
 
 /* 音量調節 */
-.sc-ikjQzJ.eLyRoF,
+.sc-fWjsSh.dvIgZb,
 /* 拡大縮小 */
-.sc-hZgfyJ.iydCdD
+.sc-gVAlfg.cDMISq
 {
     opacity: 0 !important;
 }
