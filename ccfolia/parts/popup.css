@@ -6,53 +6,50 @@ body {
 
 /* ヘッダー */
 header,
-/* 編集ボタン*/
-.sc-dSuTWQ,
+/* 編集ボタン */
+#root > div > div:nth-of-type(2) > button,
 /* チャット */
-.sc-bBXxYQ,
+#root > div > div:nth-of-type(3) > div,
 /* ステータス */
-.sc-cwpsFg.fjqig,
+#root > div > div:nth-of-type(2) > div:nth-of-type(5):not(.MuiPaper-root),
+#root > div > div:nth-of-type(2) > div:nth-of-type(6),
 /* モーダル */
 [role="presentation"],
 /* 音量調節 */
-.sc-ikjQzJ,
+#root > div > div:nth-of-type(2) > div:nth-of-type(3),
 /* 拡大縮小 */
-.sc-hZgfyJ,
+#root > div > div:nth-of-type(2) > div:nth-of-type(4),
 /* 前景 */
-.sc-djvmMF,
+#root > div > div:nth-of-type(2) > div:nth-of-type(1),
 /* 背景 */
-.sc-TRNrF,
+#root > div > div:nth-of-type(1),
 /* カットイン */
-.sc-gJwTLC,
+/* OBSではhasはまだ使えない */
+/* #root > div > div:nth-of-type(2) > div:nth-of-type(n+6):not(:has(span)), */
+#root > div > div:nth-of-type(2) > div:nth-of-type(n+6) > div > img,
 /* 監視モード */
 [role="alert"],
-button,
+/* ポップアップ内ボタン */
+#root > div > div:nth-of-type(2) > div:nth-of-type(5) > div > div > button,
 /* スクロールバー */
 ::-webkit-scrollbar
 {
     display: none !important;
 }
 
+/* カットインの背景色を無色に */
+#root > div > div:nth-of-type(2) > div:nth-of-type(n+6) {
+    background-color: rgba(0,0,0,0);
+}
+
 /* チャット分の余白をキャンセル */
-.sc-kgUAyh.bQuPFq
+#root > div > div:nth-of-type(2)
 {
     right: 0 !important;
 }
 
-/* ステータス省略の幅を上書き */
-.sc-cwpsFg.fjqig > div > div > div
-{
-    display: block;
-}
-@media (max-width: 170px){
-    .sc-cwpsFg.fjqig > div > div > div
-    {
-        display: none !important;
-    }
-}
-
 /* ポップアップの左右余白調整 */
-.sc-djUGQo
+#root > div > div:nth-of-type(2) > div:nth-of-type(5)
 {
     max-width: none;
     width: 100%;

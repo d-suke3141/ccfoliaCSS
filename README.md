@@ -31,9 +31,11 @@ OBS用のCSSまとめです
   - ただし、Discordの点滅等は併用できない
     - ```css 
       @import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/sabun.css");
-      .sc-cwpsFg > div:not(:nth-child({character_number})){
-       display: none;
-       }
+      #root > div > div:nth-of-type(2) > div:nth-of-type(5) > div:not(:nth-child({character_number})),
+      #root > div > div:nth-of-type(2) > div:nth-of-type(6):not(.MuiPaper-root) > div:not(:nth-child({character_number}))
+      {
+          display: none;
+      }
       ```
 - [status.css](ccfolia/parts/status.css)
   - 全員分のステータスを縦並びに表示する
@@ -45,18 +47,24 @@ OBS用のCSSまとめです
   - 使用方法
     - ```css 
       @import url("https://d-suke3141.github.io/css-for-obs-stream/ccfolia/parts/status-text.css");
-      :root{
+      :root
+      {
           --font-color: black;
           --font-family: "Noto Sans JP";
           --width: 250px;
+          --name: "名前";
       }
-      .sc-cwpsFg > div:not(:nth-child({character_number})){
+
+      #root > div > div:nth-of-type(2) > div:nth-of-type(5) > div:not(:nth-child({character_number})),
+      #root > div > div:nth-of-type(2) > div:nth-of-type(6):not(.MuiPaper-root) > div:not(:nth-child({character_number}))
+      {
           display: none;
       }
       ```
     - --font-colorに文字の色を設定する(設定しない場合はblack)
     - --font-familyに文字のフォントを設定する(設定しない場合はNoto Sans JP)
     - --widthにステータス文字列の幅を設定する(設定しない場合は250px)
+    - --nameにキャラクターの名前を設定する(設定しない場合は表示なし)
     - {character_number}をCCFOLIAでのキャラのの表示順に置き換える(１からスタート)
 ## Discord Streamkit用
 - [character.css](discord/character.css)

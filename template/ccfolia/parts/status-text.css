@@ -4,8 +4,11 @@
     --font-color: {font_color};
     --font-family: "{font_family}";
     --width: {width};
+    --name: {name};
 }
-.sc-cwpsFg > div:not(:nth-child({character_number}))
+
+#root > div > div:nth-of-type(2) > div:nth-of-type(5) > div:not(:nth-child({character_number})),
+#root > div > div:nth-of-type(2) > div:nth-of-type(6):not(.MuiPaper-root) > div:not(:nth-child({character_number}))
 {
     display: none;
 }

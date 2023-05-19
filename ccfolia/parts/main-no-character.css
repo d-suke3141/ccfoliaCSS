@@ -1,20 +1,21 @@
 /* ダイアログ表示時はBGMが流れないため、確認のために表示する */
 /* ヘッダー */
 header,
-/* 編集ボタン*/
-.sc-dSuTWQ,
+/* 編集ボタン */
+#root > div > div:nth-of-type(2) > button,
 /* チャット */
-.sc-bBXxYQ,
+#root > div > div:nth-of-type(3) > div,
 /* チャットポップアップ */
-.sc-djUGQo,
+#root > div > div:nth-of-type(2) > div:nth-of-type(5),
 /* モーダル */
 [role="presentation"],
 /* ステータス */
-.sc-cwpsFg.fjqig,
+#root > div > div:nth-of-type(2) > div:nth-of-type(5),
+#root > div > div:nth-of-type(2) > div:nth-of-type(6):not(.MuiPaper-root),
 /* 監視モード */
 [role="alert"],
 /* キャラクター */
-.sc-jfmDQi,
+#root > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div > figure,
 /* スクロールバー */
 ::-webkit-scrollbar
 {
@@ -22,9 +23,9 @@ header,
 }
 
 /* 音量調節 */
-.sc-ikjQzJ.eLyRoF,
+#root > div > div:nth-of-type(2) > div:nth-of-type(3),
 /* 拡大縮小 */
-.sc-hZgfyJ.iydCdD
+#root > div > div:nth-of-type(2) > div:nth-of-type(4)
 {
     opacity: 0 !important;
 }
@@ -34,7 +35,8 @@ header,
     pointer-events: none !important;
 }
 
-.sc-kgUAyh.bQuPFq
+/* チャット分の余白をキャンセル */
+#root > div > div:nth-of-type(2)
 {
     right: 0 !important;
 }

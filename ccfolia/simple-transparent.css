@@ -1,12 +1,10 @@
 /* ダイアログ表示時はBGMが流れないため、確認のために表示する */
 /* ヘッダー, チャットヘッダー */
 header,
-/* 編集ボタン*/
-.sc-dSuTWQ,
+/* 編集ボタン */
+#root > div > div:nth-of-type(2) > button,
 /* チャットメニュー */
-.sc-iTONeN,
-/* カットイン */
-.sc-gJwTLC,
+#root > div > div:nth-of-type(3) > div > div > div:nth-of-type(1),
 /* 監視モード */
 [role="alert"],
 /* スクロールバー */
@@ -14,11 +12,12 @@ header,
 {
     display: none !important;
 }
+
 /* 以下の要素はクリックによる操作のために透明化する */
 /* 音量調節 */
-.sc-ikjQzJ,
+#root > div > div:nth-of-type(2) > div:nth-of-type(3),
 /* 拡大縮小 */
-.sc-hZgfyJ
+#root > div > div:nth-of-type(2) > div:nth-of-type(4)
 {
     opacity: 0 !important;
 }
